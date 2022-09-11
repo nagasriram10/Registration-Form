@@ -55,11 +55,11 @@ function validateAge(today, dobobj) {
   
     tableDiv.innerHTML = `<table class="table2">
     <tr>
-      <th>NAME</th>
-      <th>EMAIL-ID</th>
-      <th>PASSWORD</th>
-      <th>DATE OF BIRTH</th>
-      <th>TERMS & CONDITIONS</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Dob</th>
+      <th>Accepted terms?</th>
     </tr>
       ${tablerows}
     </table>`;
